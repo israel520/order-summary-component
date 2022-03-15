@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+font-size: 15px;
+color: grey;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+  background-color:whitesmoke;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    align-items:center;
+    border-radius: 25px;
+}
+img {
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 380px;
+    width: 340px;
+}
+.items1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+.dv1 {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.dv1 p {
+   line-height: 1.4;
+   word-spacing: 5px;
+}
+.dv1 h1 {
+    color:hsl(223, 47%, 23%) ;
+    padding-bottom: 15px;
+}
+#wow img {
+    width: 35px;
+    height: 35px; 
+    margin-right: 10px; 
+}
+.dv2 {
+    display: flex;
+    margin-right: 2px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 238, 238);
+    height: 70px;
+    width: 320px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dv2 p {
+    line-height: 1.5;
+    padding: 5px;
+}
+#w {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.dv3 {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+#v {
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 40px;
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsl(223, 47%, 23%);
+}
+#v:hover {
+    background-color: rgb(103, 103, 221);
+}
+#annual {
+    font-weight: bold;
+    color:hsl(223, 47%, 23%) ;
+}
+#v1 :hover {
+    color:hsl(223, 47%, 23%) ;
+    font-weight: bold;
+}
+#v2 :hover {
+    color:rgb(103, 103, 221) ;
+}
